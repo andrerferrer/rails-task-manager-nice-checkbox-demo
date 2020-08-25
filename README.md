@@ -20,11 +20,18 @@ Add this to your `application.scss`:
 Boostrap is ✔!
 
 ## Add Font awesome
+To practice adding gems, we will add the font-awesome gem:
 
-## Add simple form for
- and `simple_form_for`
+In the `Gemfile`, add this line:
 
- 
+`gem "font-awesome-rails"`
+
+Run `bundle install` and add this to the `application.scss`:
+
+`@import "font-awesome";`
+
+Font awesome is ✔!
+
 ## Make the Changes on the Index View
 
 Now, we're going to change how it displays in the `index.html.erb`. Add these in your loop:
@@ -49,8 +56,9 @@ Now, we're going to change how it displays in the `index.html.erb`. Add these in
 
 And that's it 🤓.
 
+## How to have a checkbox in the show page that completes?
 
-
+`TO BE DONE!`
 
 Then, we're going to implement a new feature.
 Which is a new Mantra 🕉!
