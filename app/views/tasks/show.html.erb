@@ -1,0 +1,18 @@
+
+<h1><%= @task.title %></h1>
+
+<p><%= @task.details %></p>
+
+
+<p> 
+  <%= link_to complete_task_path(@task), method: :patch do %>
+    <% if @task.completed %>
+      <i class="fa fa-check-square-o"></i>
+    <% else %>
+      <i class="fa fa-square-o"></i>
+    <% end %>
+  <% end %>
+  
+</p>
+
+<%= link_to "Go Back", tasks_path %>
