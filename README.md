@@ -1,10 +1,14 @@
-# Handling the CheckBox
+# GOAL
+
+This is a demo to teach how to handle the CheckBox in a very specific challenge.
+
+You can also check my other demos [here](https://github.com/andrerferrer/dedemos).
 
 ## How to have a (somewhat) Nice Checkbox
 
 ![nice checkbox](https://i.imgur.com/aOBqV5h.png)
 
-We'll start by installing `bootstrap` and `font awesome`.
+We'll start by installing `bootstrap` and `font awesome`. Then, we'll adjust the view.
 
 ## Add bootstrap
 In the terminal:
