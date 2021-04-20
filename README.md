@@ -40,7 +40,7 @@ Font awesome is ✔!
 
 Now, we're going to change how it displays in the `index.html.erb`. Add these in your loop:
 
-```html
+```erb
 <% @tasks.each do |task| %>
     <li>
       <% if task.completed %> <%# ADD THIS LINE %>
